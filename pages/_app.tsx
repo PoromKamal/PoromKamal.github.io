@@ -19,7 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Clone and deploy your own Next.js portfolio in minutes."
         />
-        <title>My awesome blog</title>
+        <title>Porom Kamal</title>
       </Head>
       <Container>
         <h1 className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">

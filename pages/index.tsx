@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Subtitle from '../components/subtitle'
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js';
+import AboutSection from '../components/AboutSection';
 
 function HomePage() {
   const typed = useRef(null);
@@ -32,13 +33,18 @@ function HomePage() {
           <h1 className="text-3xl font-semibold">
             Hey👋,
             <div className="type-wrap">
-              <span style={{ whiteSpace: 'pre' }} ref={el} />
+              <span className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent" style={{ whiteSpace: 'pre' }} ref={el} />
             </div>
           </h1>
-          <p className='text-lg'>
+          <div className='text-lg'>
             I'm a 20 year-old Software Engineer based in <div className='inline font-semibold'>Toronto.</div>
-          </p>
-          <Subtitle>|About Me</Subtitle>
+            <br/>
+            I enjoy <div className='inline font-semibold'>Full-Stack</div> development (mostly the <div className='inline font-semibold'>Backend</div> lol).
+            <br/>
+            I do other stuff too, you can learn about it here :)
+          </div>
+          <AboutSection/>
+          
         </div>
       </Container>
     </>
