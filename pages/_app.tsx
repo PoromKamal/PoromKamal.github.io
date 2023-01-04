@@ -4,6 +4,8 @@ import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Header from '../components/header'
 import { Auth0Provider } from '@auth0/auth0-react'
+import SideNav from '../components/sidenav'
+import Container from '../components/container'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -19,9 +21,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <title>My awesome blog</title>
       </Head>
-
-      <Header />
-
+      <Container>
+        <h1 className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
+          Porom Kamal
+        </h1>
+      </Container>
+      <SideNav/>
       <main className="py-14">
         <Component {...pageProps} />
       </main>
