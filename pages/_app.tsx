@@ -6,6 +6,7 @@ import Header from '../components/header'
 import { Auth0Provider } from '@auth0/auth0-react'
 import SideNav from '../components/sidenav'
 import Container from '../components/container'
+import Zoom from 'react-reveal/Zoom';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -22,14 +23,15 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Porom Kamal</title>
       </Head>
       <Container>
-        <h1 className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
+        <h1 className="sticky top-0 pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
           Porom Kamal
         </h1>
       </Container>
       <SideNav/>
-      <main className="py-14">
-        <Component {...pageProps} />
-      </main>
+        <main className="py-14">
+          <Component {...pageProps}/>
+        </main>
+
     </Auth0Provider>
   )
 }

@@ -11,9 +11,10 @@ function HomePage() {
   useEffect(()=>{
     const options = {
       strings: [
-        'I\'m Porom',
+        "how's it going?",
+        "i\'m Porom",
       ],
-      typeSpeed: 50,
+      typeSpeed: 60,
       backSpeed: 50,
       cursorChar: "|",
     };
@@ -30,21 +31,47 @@ function HomePage() {
     <>
       <Container>
         <div className="space-y-6">
-          <h1 className="text-3xl font-semibold">
-            Hey👋,
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <h1 className="text-6xl font-semibold">
+            Hey <div className='inline text-5xl'>👋</div>,
             <div className="type-wrap">
               <span className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent" style={{ whiteSpace: 'pre' }} ref={el} />
             </div>
           </h1>
-          <div className='text-lg'>
+          <br/>
+          <div className='text-2xl'>
             I'm a 20 year-old Software Engineer based in <div className='inline font-semibold'>Toronto.</div>
             <br/>
             I enjoy <div className='inline font-semibold'>Full-Stack</div> development (mostly the <div className='inline font-semibold'>Backend</div> lol).
             <br/>
             I do other stuff too, you can learn about it here :)
           </div>
-          <AboutSection/>
-          
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+          <div id="about-section">
+            <AboutSection/>
+          </div>
+
+
+
         </div>
       </Container>
     </>
