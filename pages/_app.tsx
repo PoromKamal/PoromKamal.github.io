@@ -7,6 +7,7 @@ import { Auth0Provider } from '@auth0/auth0-react'
 import SideNav from '../components/sidenav'
 import Container from '../components/container'
 import Zoom from 'react-reveal/Zoom';
+import Footer from '../components/Footer'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -31,7 +32,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <main className="py-14">
           <Component {...pageProps}/>
         </main>
-
+      <Footer/>
     </Auth0Provider>
   )
 }
