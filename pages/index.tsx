@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Subtitle from '../components/subtitle'
 import { useEffect, useRef } from 'react'
 import Typed from 'typed.js';
-import AboutSection from '../components/AboutSection';
+import EducationSection from '../components/EducationSection';
+import ExperienceSection from '../components/ExperienceSection';
 
 function HomePage() {
   const typed = useRef(null);
@@ -14,7 +15,7 @@ function HomePage() {
         "how's it going?",
         "i\'m Porom",
       ],
-      typeSpeed: 60,
+      typeSpeed: 50,
       backSpeed: 50,
       cursorChar: "|",
     };
@@ -67,11 +68,11 @@ function HomePage() {
           <br/>
           <br/>
           <div id="about-section">
-            <AboutSection/>
+            <EducationSection/>
           </div>
-
-
-
+          <div id = "experience-section">
+            <ExperienceSection/>
+          </div>
         </div>
       </Container>
     </>
