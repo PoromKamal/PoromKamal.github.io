@@ -10,12 +10,12 @@ export default function ExperienceSection(){
                 <div>
                     <Subtitle>
                         <div className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent inline">
-                            | </div>&nbsp;&nbsp;&nbsp;Experience 💼
-                        </Subtitle>
+                            |</div>&nbsp;&nbsp;&nbsp;Experience 💼
+                    </Subtitle>
                         <br/>
                         
                 </div>
-                <div className='py-1'>
+                <div className='py-1  w-7/12'>
                     <div className='h-0.5 bg-current'/>
                 </div>
             </Pulse>
@@ -31,7 +31,7 @@ export default function ExperienceSection(){
                             alt="Seequent Logo"
                             />
                             (Bentley Systems)</div>
-                        <div className='text-base inline absolute top-0 right-0 font-bold'>
+                        <div className='text-base absolute top-0 right-0 font-bold pl-9 w-7/12'>
                             Jan 2022 - Aug 2022 (8 mo)
                         </div>
                         <div className='italic font-medium'>
@@ -40,7 +40,7 @@ export default function ExperienceSection(){
                     </Pulse>
                 </div>
 
-                <ul className='list-disc space-y-3'>
+                <ul className='list-disc space-y-3 pl-5'>
                     <Pulse>
                         <li>
                             Maintained and developed modelling, and geo-data management software that detect, analyze, and classify UXOs

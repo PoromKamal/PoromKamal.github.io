@@ -23,14 +23,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <title>Porom Kamal</title>
       </Head>
-      <Container>
-        <h1 className="sticky top-0 pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent text-5xl font-black">
-          Porom Kamal
-        </h1>
-      </Container>
       <SideNav/>
-        <main className="py-14">
-          <Component {...pageProps}/>
+        <main className="py-14 pl-28">
+          <div className='pr-80'>
+            <Component {...pageProps}/>
+          </div>
         </main>
       <Footer/>
     </Auth0Provider>

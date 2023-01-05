@@ -9,7 +9,7 @@ import HeadShake from 'react-reveal/HeadShake';
 import Head from 'next/head';
 import Jump from 'react-reveal/Jump';
 import Pulse from 'react-reveal/Pulse';
-export default function AboutSection(){
+export default function EducationSection(){
 
     return (
         <>
@@ -18,10 +18,10 @@ export default function AboutSection(){
                     <br/>
                         <Subtitle><div className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent inline">|</div>&nbsp;&nbsp;&nbsp;Education 🎓</Subtitle>
                     <br/>
-                    <div className='py-1'>
+                    <div className='py-1 w-7/12'>
                         <div className='h-0.5 bg-current'/>
                     </div>
-                    <div className='relative'>
+                    <div className='relative w-7/12'>
                         <div className='inline font-semibold'>University of Toronto</div>
                         <div className='text-base inline absolute top-0 right-0 font-bold'>
                             2020-2024
@@ -37,10 +37,10 @@ export default function AboutSection(){
                             <br/>
                             <br/>
                             <div className="font-medium">
-                                Some cool courses I'm taking:
+                                Some Interesting Courses I'm Taking:
                             </div>
                         </Pulse>
-                        <ul className='list-disc space-y-3'>
+                        <ul className='list-disc space-y-3 pl-5'>
                             <Pulse>
                                 <li>
                                     <div className='inline font-semibold'>CSCD01</div>: Engineering Large Software Systems 
