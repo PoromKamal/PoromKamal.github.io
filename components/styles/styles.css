@@ -3,7 +3,7 @@
     overflow: hidden;
     display: flex;
     gap: 5px;
-    width: 300px;
+    width: fit-content;
   }
   
   .image .text {

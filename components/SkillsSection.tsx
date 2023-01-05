@@ -12,69 +12,102 @@ export default function SkillsSection(){
                 |</div>&nbsp;&nbsp;&nbsp;Skills 🛠️
             </Subtitle>
             <br/>
-            <div className='py-1 pb-10 w-7/12'>
+            <div className='pb-10 w-7/12'>
                 <div className='h-0.5 bg-current'/>
             </div>
-            <div className="text-lg">
-                <div className="inline font-semibold"> Languages: </div> Java, C#, JavaScript/TypeScript, Python, C/C++, HTML, CSS, SQL
-            </div>
         </Pulse>
-        <div>
-            <ul className='list-disc space-y-3 pl-5'>
-                <li>
-                    <div className="image">
-                        <Image src="/java.png" 
-                            width={40}
-                            height={40}
-                            alt="image"/>
-                        <div className="text">
-                            Java
+        <div className='flex pl-8'>
+            <div className="text-lg">
+                <div className="font-semibold pb-5"> Languages: </div>
+                <ul className='list-disc space-y-3 pl-5 text-base'>
+                    <li>
+                        <div className="image">
+                            <Image src="/java.png" 
+                                width={40}
+                                height={40}
+                                alt="image"/>
+                            <div className="text">
+                                Java
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li>
-                    <div className="image">
-                        <Image src="/csharplogo.png" 
-                            width={30}
-                            height={30}
-                            alt="image"/>
-                        <div className="text">
-                            C#
+                    <li>
+                        <div className="image">
+                            <Image src="/csharplogo.png" 
+                                width={30}
+                                height={30}
+                                alt="image"/>
+                            <div className="text">
+                                C#
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li>
-                    <div className="image">
-                        <Image src="/Cppicon.png" 
-                            width={30}
-                            height={30}
-                            alt="image"/>
-                        <div className="text">
-                            C/C++
+                    <li>
+                        <div className="image">
+                            <Image src="/Cppicon.png" 
+                                width={30}
+                                height={30}
+                                alt="image"/>
+                            <div className="text">
+                                C/C++
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-                <li>
-                    <div className="image">
-                        <Image src="/jsicon.png" 
-                            width={30}
-                            height={30}
-                            alt="image"
-                            />
-                        <Image src="/tsIcon.png" 
-                            width={30}
-                            height={30}
-                            alt="image"/>
-                        <div className="text">
-                            Javascript/Typescript
+                    <li>
+                        <div className="image">
+                            <Image src="/jsicon.png" 
+                                width={30}
+                                height={30}
+                                alt="image"
+                                />
+                            <Image src="/tsIcon.png" 
+                                width={30}
+                                height={30}
+                                alt="image"/>
+                            <div className="text">
+                                Javascript/Typescript
+                            </div>
                         </div>
-                    </div>
-                </li>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
+            
+            <div className='px-10'>
+                <div className='h-56 bg-gray-400 w-0.5'></div>
+            </div>
+
+            <div className='text-lg'>
+                <div className="font-semibold pb-5"> Technologies: </div>
+                <ul className='list-disc space-y-3 pl-5'>
+                    <li>
+                        <div className="image">
+                            <Image src="/java.png" 
+                                width={40}
+                                height={40}
+                                alt="image"/>
+                            <div className="text">
+                                Java
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div className="image">
+                            <Image src="/csharplogo.png" 
+                                width={30}
+                                height={30}
+                                alt="image"/>
+                            <div className="text">
+                                C#
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         </>
