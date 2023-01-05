@@ -46,7 +46,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./Cppicon.png" 
+                                <Image src="./cppicon.png" 
                                     width={40}
                                     height={40}
                                     alt="image"/>
