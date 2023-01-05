@@ -25,7 +25,7 @@ export default function ExperienceSection(){
                         <div className='inline font-semibold text-xl'>Seequent                     
                         <Image
                             className='inline px-1'
-                            src="/seequent.jpg"
+                            src="./seequent.jpg"
                             width={35}
                             height={35}
                             alt="Seequent Logo"
