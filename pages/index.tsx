@@ -7,7 +7,6 @@ import EducationSection from '../components/EducationSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ProjectSection from '../components/ProjectSection';
 import SkillsSection from '../components/SkillsSection';
-import ContactSection from '../components/ContactSection';
 
 function HomePage() {
   const typed = useRef(null);
