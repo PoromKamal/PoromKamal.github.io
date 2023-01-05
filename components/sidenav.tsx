@@ -13,6 +13,9 @@ export default function SideNav() {
         section = "experience-section"
         break
       case 3:
+        section = "skills-section"
+        break
+      case 4:
         section = "project-section"
         break
     }
@@ -30,7 +33,8 @@ export default function SideNav() {
         <div className="flex flex-col items-start font-bold"> 
             <button onClick={()=>handleOnClick(1)}>| Education</button>
             <button onClick={()=>handleOnClick(2)}>| Experience</button>
-            <button onClick={()=>handleOnClick(3)}>| Projects</button>
+            <button onClick={()=>handleOnClick(3)}>| Skills</button>
+            <button onClick={()=>handleOnClick(4)}>| Projects</button>
         </div>
         </div>
       </Container>

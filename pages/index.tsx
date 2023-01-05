@@ -6,6 +6,7 @@ import Typed from 'typed.js';
 import EducationSection from '../components/EducationSection';
 import ExperienceSection from '../components/ExperienceSection';
 import ProjectSection from '../components/ProjectSection';
+import SkillsSection from '../components/SkillsSection';
 
 function HomePage() {
   const typed = useRef(null);
@@ -43,22 +44,30 @@ function HomePage() {
           </h1>
           <br/>
           <div className='text-2xl pb-60'>
-            I'm a 20 year-old Software Engineer based in <div className='inline font-semibold'>Toronto.</div>
+            I'm a 20 year-old Software Engineer based in <div className='inline font-semibold'>Toronto</div>
             <br/>
-            I enjoy <div className='inline font-semibold'>Full-Stack</div> development (mostly the <div className='inline font-semibold'>Backend</div> lol).
+            I enjoy <div className='inline font-semibold'>Full-Stack</div> development (mostly the <div className='inline font-semibold'>Backend</div> lol)
             <br/>
             I do other stuff too, you can learn about it here :)
           </div>
           <div className='py-12'/>
+          
           <div id="about-section">
             <EducationSection/>
           </div>
+          
           <div id = "experience-section">
             <ExperienceSection/>
           </div>
-          <div id = "project-section w-96" className='py-12'>
+          
+          <div id = "skills-section"  className='py-12'> 
+            <SkillsSection/>
+          </div>
+
+          <div id = "project-section" className='py-12'>
             <ProjectSection/>
           </div>
+
         </div>
       </Container>
     </>

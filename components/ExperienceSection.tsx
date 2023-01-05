@@ -22,9 +22,9 @@ export default function ExperienceSection(){
             <div className='text-base'>
                 <div className='relative '>
                     <Pulse>
-                        <div className='inline font-semibold text-xl'>Seequent &nbsp;                         
+                        <div className='inline font-semibold text-xl'>Seequent                     
                         <Image
-                            className='inline'
+                            className='inline px-1'
                             src="/seequent.jpg"
                             width={35}
                             height={35}
