@@ -1,6 +1,7 @@
 import fi from 'date-fns/esm/locale/fi/index.js'
 import Link from 'next/link'
 import Container from '../components/container'
+import Image from 'next/image'
 
 export default function SideNav() {
   function handleOnClick(sectionNum){
@@ -24,8 +25,16 @@ export default function SideNav() {
     if(element){
       element.scrollIntoView({behavior: 'smooth'})
     }
+  }
+
+  const handleGithubClick = (url) =>{
+    window.open(url, "_blank", "noreferrer")
+  }
+  
+  const handleEmail = () => {
 
   }
+
   return (
     <div className="py-6 max-w-fit fixed top-96 right-1 pr-24">
       <Container>
@@ -36,6 +45,30 @@ export default function SideNav() {
             <button onClick={()=>handleOnClick(3)}>| Skills</button>
             <button onClick={()=>handleOnClick(4)}>| Projects</button>
         </div>
+        </div>
+        <div className='flex gap-2 py-3 pl-1'>
+        <button onClick={()=>handleGithubClick("https://github.com/PoromKamal")}>
+            <Image
+                src="/github.png"
+                width={21}
+                height={21}
+                alt={"github icon"}/>
+          </button>
+        <button onClick={()=>handleGithubClick("https://www.linkedin.com/in/porom-kamal-0207a9187/")}>
+            <Image
+                src="/linkedinIcon.png"
+                width={21}
+                height={21}
+                alt={"github icon"}/>
+        </button>
+
+        <a href = "mailto: porom.kamal@mail.utoronto.ca">
+          <Image
+                  src="/emailIcon.png"
+                  width={21}
+                  height={21}
+                  alt={"github icon"}/>
+        </a>
         </div>
       </Container>
     </div>
