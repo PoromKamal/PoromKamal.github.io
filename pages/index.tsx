@@ -64,7 +64,7 @@ function HomePage() {
             <SkillsSection/>
           </div>
 
-          <div id = "project-section" className='py-12'>
+          <div id = "project-section">
             <ProjectSection/>
           </div>
 

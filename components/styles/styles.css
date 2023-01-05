@@ -3,19 +3,19 @@
     overflow: hidden;
     display: flex;
     gap: 5px;
-    width: fit-content;
+    width: 200px;
+    align-items: center;
   }
   
-  .image .text {
-    width: auto;
-    max-width: 0%;
-    white-space: nowrap;
-    overflow: hidden;
-    transition: max-width 400ms linear;
-    padding-left: 10px;
-  }
-  
-  .image:hover .text {
-    max-width: 100%;
-  }
-  
+.image .text {
+  width: auto;
+  max-width: 0%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: max-width 400ms linear;
+  padding-left: 10px;
+}
+
+.image:hover .text {
+  max-width: 100%;
+}
