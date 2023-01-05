@@ -8,6 +8,7 @@ import SideNav from '../components/sidenav'
 import Container from '../components/container'
 import Zoom from 'react-reveal/Zoom';
 import Footer from '../components/Footer'
+import "../components/styles/styles.css"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -1,0 +1,21 @@
+.image {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    gap: 5px;
+    width: 300px;
+  }
+  
+  .image .text {
+    width: auto;
+    max-width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: max-width 400ms linear;
+    padding-left: 10px;
+  }
+  
+  .image:hover .text {
+    max-width: 100%;
+  }
+  
