@@ -14,8 +14,8 @@ function HomePage() {
   useEffect(()=>{
     const options = {
       strings: [
-        "how's it going?",
-        "i\'m Porom",
+        "How's it going?",
+        "I\'m Porom",
       ],
       typeSpeed: 50,
       backSpeed: 25,
