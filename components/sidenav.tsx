@@ -49,14 +49,14 @@ export default function SideNav() {
         <div className='flex gap-2 py-3 pl-1'>
         <button onClick={()=>handleGithubClick("https://github.com/PoromKamal")}>
             <Image
-                src="/github.png"
+                src="./github.png"
                 width={21}
                 height={21}
                 alt={"github icon"}/>
           </button>
         <button onClick={()=>handleGithubClick("https://www.linkedin.com/in/porom-kamal-0207a9187/")}>
             <Image
-                src="/linkedinIcon.png"
+                src="./linkedinIcon.png"
                 width={21}
                 height={21}
                 alt={"github icon"}/>
@@ -64,7 +64,7 @@ export default function SideNav() {
 
         <a href = "mailto: porom.kamal@mail.utoronto.ca">
           <Image
-                  src="/emailIcon.png"
+                  src="./emailIcon.png"
                   width={21}
                   height={21}
                   alt={"github icon"}/>

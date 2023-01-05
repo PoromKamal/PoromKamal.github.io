@@ -20,7 +20,7 @@ export default function ProjectCard({name, description, githubUrl, tech}){
                         <div className='absolute top-5 right-5'>
                             <button onClick={()=>handleGithubClick()}>
                                 <Image
-                                    src="/github.png"
+                                    src="./github.png"
                                     width={30}
                                     height={30}
                                     alt={"github icon"}/>
