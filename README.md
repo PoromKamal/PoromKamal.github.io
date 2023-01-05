@@ -3,7 +3,7 @@ Hey 👋, this is my personal portfolio.
 
 The website is deployed here:
 
-##The Tech
+## The Tech
 React, Next.js, Tailwindcss
 
 
