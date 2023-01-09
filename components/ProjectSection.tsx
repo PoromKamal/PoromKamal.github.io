@@ -40,7 +40,7 @@ export default function ProjectSection(){
                     <li>
                         <ProjectCard name={"Porom's Portfolio"} description={"Porom Kamal's Personal Website/Portfolio."} 
                                 githubUrl={"https://github.com/PoromKamal/Porom"}
-                                tech={"Next.js, Tailwindcss, Github Actions"}/>
+                                tech={"Next.js, Typescript, Tailwindcss, Github Actions"}/>
                     </li>
                 </ul>
                 </Pulse>
