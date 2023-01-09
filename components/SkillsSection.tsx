@@ -1,7 +1,26 @@
-import React from 'react'
-import Pulse from 'react-reveal/Pulse'
-import Subtitle from './subtitle'
-import Image from 'next/image'
+import React from 'react';
+import Pulse from 'react-reveal/Pulse';
+import Subtitle from './subtitle';
+import Image from 'next/image';
+import javaIcon from './images/java.png';
+import cSharpIcon from './images/csharplogo.png';
+import cppIcon from './images/cppLogo.png';
+import jsIcon from './images/jsicon.png';
+import tsIcon from './images/tsIcon.png';
+import pythonIcon from './images/pythonIcon.png';
+import htmlIcon from './images/htmlIcon.png';
+import cssIcon from './images/cssIcon.png';
+import sqlIcon from './images/sqlIcon.png';
+import reactIcon from './images/reactIcon.png';
+import nodeIcon from './images/nodeIcon.png';
+import dockerIcon from './images/dockerIcon.webp';
+import springIcon from './images/springIcon.png';
+import mongoIcon from './images/mongIcon.webp';
+import postgresIcon from './images/postgresIcon.png';
+import androidIcon from './images/androidIcon.png';
+import neo4jIcon from './images/neo4jIcon.png';
+import atlassianIcon from './images/atlassian.png';
+import gitIcon from './images/gitIcon.png';
 
 export default function SkillsSection(){
     return(
@@ -22,7 +41,7 @@ export default function SkillsSection(){
                     <ul className='space-y-8 pl-5 text-base'>
                         <li>
                             <div className="image">
-                                <Image src="./java.png" 
+                                <Image src={javaIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -34,7 +53,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./csharplogo.png" 
+                                <Image src={cSharpIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -46,7 +65,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./cppLogo.png" 
+                                <Image src={cppIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -58,12 +77,12 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./jsicon.png" 
+                                <Image src={jsIcon}
                                     width={40}
                                     height={40}
                                     alt="image"
                                     />
-                                <Image src="./tsIcon.png" 
+                                <Image src={tsIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -76,7 +95,7 @@ export default function SkillsSection(){
                     <ul className='space-y-8 pl-5 text-base'>
                         <li>
                             <div className="image">
-                                <Image src="./pythonIcon.png" 
+                                <Image src={pythonIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -88,12 +107,12 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./htmlIcon.png" 
+                                <Image src={htmlIcon}
                                     width={40}
                                     height={40}
                                     alt="image"
                                     />
-                                <Image src="./cssIcon.png" 
+                                <Image src={cssIcon}
                                     width={45.8}
                                     height={46}
                                     alt="image"/>
@@ -105,7 +124,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./sqlIcon.png" 
+                                <Image src={sqlIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -128,7 +147,7 @@ export default function SkillsSection(){
                     <ul className='space-y-3 pl-5 text-base'>
                         <li>
                             <div className="image">
-                                <Image src="./reactIcon.png" 
+                                <Image src={reactIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -140,7 +159,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./nodeIcon.png" 
+                                <Image src={nodeIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -153,7 +172,7 @@ export default function SkillsSection(){
                         
                         <li>
                             <div className="image">
-                                <Image src="./dockerIcon.webp" 
+                                <Image src={dockerIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -165,7 +184,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./springIcon.png" 
+                                <Image src={springIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -180,7 +199,7 @@ export default function SkillsSection(){
                     <ul className='space-y-3 pl-5 text-base'>
                         <li>
                             <div className="image">
-                                <Image src="./mongIcon.webp" 
+                                <Image src={mongoIcon} 
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -192,7 +211,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./postgresIcon.png" 
+                                <Image src={postgresIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -204,7 +223,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./androidIcon.png" 
+                                <Image src={androidIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -216,7 +235,7 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./neo4jIcon.png" 
+                                <Image src={neo4jIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>
@@ -228,7 +247,19 @@ export default function SkillsSection(){
 
                         <li>
                             <div className="image">
-                                <Image src="./atlassian.png" 
+                                <Image src={gitIcon}
+                                    width={40}
+                                    height={42}
+                                    alt="image"/>
+                                <div className="text">
+                                    Git
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div className="image">
+                                <Image src={atlassianIcon}
                                     width={40}
                                     height={40}
                                     alt="image"/>

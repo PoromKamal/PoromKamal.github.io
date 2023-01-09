@@ -2,6 +2,9 @@ import fi from 'date-fns/esm/locale/fi/index.js'
 import Link from 'next/link'
 import Container from '../components/container'
 import Image from 'next/image'
+import githubImage from './images/github.png';
+import linkedinIcon from './images/linkedinIcon.png';
+import emailIcon from './images/emailIcon.png';
 
 export default function SideNav() {
   function handleOnClick(sectionNum){
@@ -49,14 +52,14 @@ export default function SideNav() {
         <div className='flex gap-2 py-3 pl-1'>
         <button onClick={()=>handleGithubClick("https://github.com/PoromKamal")}>
             <Image
-                src="./github.png"
+                src={githubImage}
                 width={21}
                 height={21}
                 alt={"github icon"}/>
           </button>
         <button onClick={()=>handleGithubClick("https://www.linkedin.com/in/porom-kamal-0207a9187/")}>
             <Image
-                src="./linkedinIcon.png"
+                src={linkedinIcon}
                 width={21}
                 height={21}
                 alt={"github icon"}/>
@@ -64,7 +67,7 @@ export default function SideNav() {
 
         <a href = "mailto: porom.kamal@mail.utoronto.ca">
           <Image
-                  src="./emailIcon.png"
+                  src={emailIcon}
                   width={21}
                   height={21}
                   alt={"github icon"}/>

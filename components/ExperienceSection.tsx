@@ -2,6 +2,7 @@ import React from "react";
 import Pulse from 'react-reveal/Pulse';
 import Image from "next/image";
 import Subtitle from "./subtitle";
+import seequentIcon from './images/seequent.jpg';
 
 export default function ExperienceSection(){
     return(
@@ -25,7 +26,7 @@ export default function ExperienceSection(){
                         <div className='inline font-semibold text-xl'>Seequent                     
                         <Image
                             className='inline px-1'
-                            src="./seequent.jpg"
+                            src={seequentIcon}
                             width={35}
                             height={35}
                             alt="Seequent Logo"
