@@ -2,7 +2,7 @@ import 'tailwindcss/tailwind.css'
 
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import Header from '../components/header'
+import { useState, useEffect } from 'react'
 import { Auth0Provider } from '@auth0/auth0-react'
 import SideNav from '../components/sidenav'
 import Container from '../components/container'
@@ -11,11 +11,25 @@ import Footer from '../components/Footer'
 import "../components/styles/styles.css"
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  const [width, setWidth] = useState(0);
+  const [sideNav, setSideNav] = useState(false);
+  
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth)
+      setSideNav(window.innerWidth >= 1240)
+    }
+    window.addEventListener("resize", handleResize)
+    handleResize()
+    
+    return () => { 
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [width])
+
+
   return (
-    <Auth0Provider
-      clientId={process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID}
-      domain={process.env.NEXT_PUBLIC_AUTH0_DOMAIN}
-    >
+    <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
@@ -24,13 +38,14 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         />
         <title>Porom Kamal</title>
       </Head>
-      <SideNav/>
+      {sideNav ? <SideNav/> : <div/>}
         <main className="py-14 pl-28">
           <div className='pr-80'>
             <Component {...pageProps}/>
           </div>
         </main>
       <Footer/>
-    </Auth0Provider>
+    </>
+
   )
 }

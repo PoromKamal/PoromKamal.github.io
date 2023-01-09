@@ -12,7 +12,7 @@ import Pulse from 'react-reveal/Pulse';
 export default function EducationSection(){
 
     return (
-        <>
+        <>  
             <div className='text-lg '>
                 <Pulse duration={600}>
                     <br/>
