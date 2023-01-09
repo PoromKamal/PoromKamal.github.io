@@ -37,9 +37,9 @@ function HomePage() {
         <div className="space-y-6">
           <br />
           <br />
-          <h1 className="lg:text-6xl text-3xl font-semibold pt-48">
+          <h1 className="lg:text-6xl text-5xl font-semibold pt-48">
             <div className='w-max'>
-             Hey <div className='inline flex-1 lg:text-5xl text-2xl'>👋</div>,
+             Hey <div className='inline flex-1 lg:text-5xl text-4xl'>👋</div>,
             </div>
             <div className="type-wrap w-max">
               <span className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent inline" style={{ whiteSpace: 'pre' }} ref={el} />

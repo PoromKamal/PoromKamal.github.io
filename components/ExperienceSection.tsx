@@ -23,7 +23,8 @@ export default function ExperienceSection(){
             <div className='text-base'>
                 <div className='relative '>
                     <Pulse>
-                        <div className='inline font-semibold text-xl'>Seequent                     
+                        <div className='inline font-semibold text-xl w-full'>
+                            Seequent                     
                         <Image
                             className='inline px-1'
                             src={seequentIcon}
@@ -32,7 +33,7 @@ export default function ExperienceSection(){
                             alt="Seequent Logo"
                             />
                             (Bentley Systems)</div>
-                        <div className='text-base absolute top-0 right-0 font-bold pl-9 w-7/12'>
+                        <div className='text-base md:absolute md:top-0 md:right-0 font-bold md:pl-9 w-7/12'>
                             Jan 2022 - Aug 2022 (8 mo)
                         </div>
                         <div className='italic font-medium'>

@@ -17,7 +17,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   useEffect(() => {
     function handleResize() {
       setWidth(window.innerWidth)
-      setSideNav(window.innerWidth >= 1240)
+      setSideNav(window.innerWidth >= 1000)
     }
     window.addEventListener("resize", handleResize)
     handleResize()

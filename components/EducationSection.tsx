@@ -21,7 +21,7 @@ export default function EducationSection(){
                     <div className='py-1 w-7/12'>
                         <div className='h-0.5 bg-current'/>
                     </div>
-                    <div className='relative w-7/12'>
+                    <div className='relative w-full'>
                         <div className='inline font-semibold'>University of Toronto</div>
                         <div className='text-base inline absolute top-0 right-0 font-bold'>
                             2020-2024
