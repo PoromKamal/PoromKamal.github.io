@@ -3,5 +3,5 @@ type ContainerProps = {
   }
   
   export default function Subtitle({ children }: ContainerProps) {
-    return <div className="container m-auto text-4xl font-bold">{children}</div>
+    return <div className="m-auto text-4xl font-bold">{children}</div>
   }
