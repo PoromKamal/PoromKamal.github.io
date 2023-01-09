@@ -26,11 +26,11 @@ import tailwindIcon from './images/tailwindIcon.jpg';
 export default function DefaultSkills(){
     return(
         <>
-            <div className='flex pl-28 w-7/12 justify-around'>
+            <div className='flex pl-15 w-7/12'>
                 <div className="text-lg">
                     <div className="font-semibold pb-5"> Languages </div>
-                    <div className='flex'>
-                        <ul className='space-y-8 pl-5 text-base'>
+                    <div className='flex w-full'>
+                        <ul className='space-y-8 pl-10 text-base'>
                             <li>
                                 <div className="image">
                                     <Image src={javaIcon}
@@ -84,6 +84,7 @@ export default function DefaultSkills(){
                                 </div>
                             </li>
                         </ul>
+                        
                         <ul className='space-y-8 pl-5 text-base'>
                             <li>
                                 <div className="image">

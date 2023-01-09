@@ -53,7 +53,10 @@ export default function SkillsSection(){
             <div className='pb-10 w-7/12'>
                 <div className='h-0.5 bg-current'/>
             </div>
-            {smallScreen ?  <MobileSkills/> : <DefaultSkills/>}
+            <div className='flex'>
+                {smallScreen ?  <MobileSkills/> : <DefaultSkills/>}
+            </div>
+
         </Pulse>
     </>
     )
