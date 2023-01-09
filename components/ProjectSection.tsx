@@ -37,6 +37,11 @@ export default function ProjectSection(){
                                 githubUrl={"https://github.com/PoromKamal/World-Vaccine-Rebalancer"}
                                 tech={"Python, TKinter, Plotly"}/>
                     </li>
+                    <li>
+                        <ProjectCard name={"Porom's Portfolio"} description={"Porom Kamal's Personal Website/Portfolio."} 
+                                githubUrl={"https://github.com/PoromKamal/Porom"}
+                                tech={"Next.js, Tailwindcss, Github Actions"}/>
+                    </li>
                 </ul>
                 </Pulse>
         </>
