@@ -39,8 +39,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <title>Porom Kamal</title>
       </Head>
       {sideNav ? <SideNav/> : <div/>}
-        <main className="py-14 pl-28">
-          <div className='pr-80'>
+        <main className="md:py-14 md:pl-28">
+          <div className='md:pr-80'>
             <Component {...pageProps}/>
           </div>
         </main>
