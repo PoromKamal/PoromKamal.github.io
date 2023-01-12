@@ -44,7 +44,7 @@ export default function EducationSection() {
                                 <div className='inline font-semibold'>CSCC09</div>: Programming on the Web
                                 <br />
                                 <div className='inline italic'>Learned everything about Full-Stack development.<br/>
-                                <div className="inline font-semibold">Highlights:</div>  JS frameworks, Data Storage, Authentication/Authorization, OAuth, and Web security.</div>
+                                <div className="inline font-semibold">Highlights:</div>  JS frameworks, Data Storage, Authentication/Authorization, OAuth, Deployment, and Web security.</div>
                             </li>
 
                             <li>
