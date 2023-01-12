@@ -41,27 +41,31 @@ export default function EducationSection() {
                     <ul className='list-disc space-y-3 pl-5'>
                         <Pulse>
                             <li>
-                                <div className='inline font-semibold'>CSCD01</div>: Engineering Large Software Systems
+                                <div className='inline font-semibold'>CSCC09</div>: Programming on the Web
                                 <br />
-                                <div className='inline italic'>Did some open source software in teams</div>
+                                <div className='inline italic'>Learned everything about Full-Stack development.<br/>
+                                <div className="inline font-semibold">Highlights:</div>  JS frameworks, Data Storage, Authentication/Authorization, OAuth, and Web security.</div>
                             </li>
 
                             <li>
                                 <div className='inline font-semibold'>CSCC01</div>: Introduction To Software Engineering
                                 <br />
-                                <div className='inline italic'>Led development of a cool fitness app</div>
+                                <div className='inline italic'>Led development of a cool fitness app.<br/>
+                                 <div className="inline font-semibold">Highlights:</div> RESTapi, Server-side in Java, Enterprise Design Patterns, Agile Development, Testing, and Dev Infrastructure.</div>
                             </li>
 
                             <li>
                                 <div className='inline font-semibold'>CSCC11</div>: Introduction To Machine Learning and Data Mining
                                 <br />
-                                <div className='inline italic'>Learned how to make machines learn</div>
+                                <div className='inline italic'>Learned how to make machines learn.<br/>
+                                <div className="inline font-semibold">Highlights:</div> Regression, Clustering, Classification, Support Vector Machines, Neural Networks, and Principal Component Analysis.</div>
                             </li>
 
                             <li>
                                 <div className='inline font-semibold'>CSCC24</div>: Principles of Programming
                                 <br />
-                                <div className='inline italic'>Did some functional, procedural, and logic programming</div>
+                                <div className='inline italic'>Did some functional, procedural, and logic programming.<br/>
+                                <div className="inline font-semibold">Highlights:</div> Programming paradigms (Procedural/Functional/Logic), Formal Language Theory, Data Abstraction and Object Orientation</div>
                             </li>
                         </Pulse>
                     </ul>
