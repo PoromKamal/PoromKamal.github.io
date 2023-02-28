@@ -19,12 +19,12 @@ export default function EducationSection() {
                         <br />
                         <Subtitle><div className="pt-16 animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent inline">|</div>&nbsp;&nbsp;&nbsp;Education 🎓</Subtitle>
                         <br />
-                        <div className='py-1 w-7/12'>
-                            <div className='h-0.5 bg-current' />
+                        <div className='py-1  w-7/12'>
+                            <div className='h-0.5 bg-current'/>
                         </div>
-                        <div className='relative w-full'>
+                        <div className='relative'>
                             <div className='inline font-semibold'>University of Toronto</div>
-                            <div className='text-base inline absolute top-0 right-0 font-bold'>
+                            <div className='text-base md:absolute md:top-0 md:right-0 font-bold md:pl-4 w-6/12'>
                                 2020-2024
                             </div>
                         </div>

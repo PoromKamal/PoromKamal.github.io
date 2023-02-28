@@ -45,33 +45,26 @@ export default function ExperienceSection(){
                 <ul className='list-disc space-y-3 pl-5'>
                     <Pulse>
                         <li>
-                            Maintained and developed modelling, and geo-data management software that detect, analyze, and classify UXOs
-                            (Unexploded Ordinances) such as missiles, mines, and bullets over terrain.
+                            Maintained and developed modelling, and geo-data management software that detect, analyze, and classify UXOs (Unexploded Ordinances) 
+                            <br/> such as missiles, mines, and bullets over terrain.
                         </li>
                         <li>
-                            Architected data processing/visualization “AltitudeQC” tool using C# and C++ to process raw UXO sensor altitude data, and
-                            render map of terrain using C++ OpenGL libraries; commissioned by the US Army Corps.
+                            Constructed HDF5 data packet processing pipeline using C#, C++, and .NET framework, leveraging multi-threading to significantly improve file parsing performance.
                         </li>
                         <li>
-                            Constructed HDF5 file data processing pipeline using C# and .NET framework while maintaining backwards compatibility 
-                            with legacy the HDF4 file format.
+                        	Architected data visualization “AltitudeQC” tool using C# to process sensor altitude data and render map of terrain using C++ OpenGL libraries. 
+                            <br/>Project commissioned by the US Army Corps.
                         </li>
                         <li>
-                            Optimized runtime of some software tools for large data sets from 6 minutes to 1 minute, using data caching, multi-threading, and dynamic programming.
+                            Refactored over 10,000 lines of legacy HDF4 data processing pipeline code using SOLID principles and OOP design patterns, 
+                            <br/>significantly reducing future technical debt, and improving code reusability with future HDF file releases.
                         </li>
                         <li>
-                            Refactored over 10,000 lines of legacy C# code bases using SOLID principles and other object-oriented design patterns
-                            (Strategy, Template Method, Dependency Injection) for code cleanliness, and software reusability.
+                            Developed automated unit tests using Bamboo, CUnit, and Moq with 100% code coverage.
                         </li>
                         <li>
-                            Developed build scripts using MSBuild, and applied continuous integration using Bamboo.
-                        </li>
-                        <li>
-                            Implemented automated test suite using Moq, and CUnit with 100% code coverage.
-                        </li>
-                        <li>
-                            Utilized agile development, and provided continuous team feedback, through code reviews, sprint planning, sprint reviews, 
-                            and sprint retrospective meetings.
+                            Received performance review of “Outstanding, with exceptional performance, and unique contributions”. 
+                            <br/>With key feedback being Strong Technical Skills, professional conduct, and full-time developer level contributions. 
                         </li>
                     </Pulse>
                 </ul>
