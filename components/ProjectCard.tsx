@@ -7,7 +7,7 @@ export default function ProjectCard({name, description, githubUrl, tech}){
     const [projectName, setProjectName] = useState(name);
     const [projectDescription, setProjectDescription] = useState(description);
     const [github, setGithub] = useState(githubUrl);
-
+    //Trigger Redeploy
     const handleGithubClick = () =>{
         window.open(githubUrl, "_blank", "noreferrer")
     }
