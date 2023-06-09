@@ -1,7 +1,7 @@
 # Welcome
 Hey 👋, this is my personal portfolio.
 
-The website is deployed here:
+The website is deployed here: http://poromkamal.github.io/
 
 ## The Tech
 React, Next.js, Tailwindcss
